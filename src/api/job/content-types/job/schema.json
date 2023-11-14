@@ -45,6 +45,15 @@
       "relation": "manyToOne",
       "target": "api::category.category",
       "inversedBy": "jobs"
+    },
+    "location": {
+      "type": "enumeration",
+      "enum": [
+        "Sydney",
+        "Chatswood",
+        "Melbourne",
+        "Perths"
+      ]
     }
   }
 }

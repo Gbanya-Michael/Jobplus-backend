@@ -821,6 +821,9 @@ export interface ApiJobJob extends Schema.CollectionType {
       'manyToOne',
       'api::category.category'
     >;
+    location: Attribute.Enumeration<
+      ['Sydney', 'Chatswood', 'Melbourne', 'Perths']
+    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
